@@ -1,0 +1,66 @@
+.container {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.audioFile {
+    position: relative;
+    top: 25em;
+}
+
+body {
+    background-image: url(https://wallpaperplay.com/walls/full/b/e/4/124178.jpg);
+    background-position: center;
+}
+
+
+#board {
+    text-align: center;
+    display: block;
+    
+    
+
+}
+
+.row {
+    margin: 0 auto;
+    width: 302px;
+
+    
+    
+}
+
+div.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: right;
+    background-color: rgba(245, 245, 245, 0.616);
+    font-size: 60px;
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 80px;
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+
+.bottom {
+   border-top: 1px black solid;
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+.top, .middle, .center, .bottom :hover {
+    cursor: pointer;
+}
